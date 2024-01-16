@@ -23,8 +23,10 @@
     <!-- Bootstrap Css -->
     <link href="{{ asset('backend/assets/css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <link href="{{ asset('backend/assets/css/bootstrap-dark.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    
     <!-- Icons Css -->
     <link href="{{ asset('backend/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+    
     <!-- App Css-->
     <link href="{{ asset('backend/assets/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
     <link href="{{ asset('backend/assets/css/app-dark.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
@@ -44,20 +46,20 @@
                     <!-- LOGO -->
                     <div class="navbar-brand-box">
                         <a href="index.html" class="logo logo-dark">
-                            <!-- <span class="logo-sm">
-                                <img src="{{ asset('backend/assets/images/logo-sm.png') }}" alt="logo-sm" height="22">
-                            </span> -->
+                            <span class="logo-sm">
+                                <img src="{{ asset('backend/assets/images/logo-sm.png') }}" alt="logo-sm" height="40">
+                            </span>
                             <span class="logo-lg">
-                                <img src="{{ asset('backend/assets/images/logo-light.png') }}" alt="logo-light" height="50">
+                                <img src="{{ asset('backend/assets/images/logo-light.png') }}" alt="logo-light" height="45">
                             </span>
                         </a>
 
                         <a href="index.html" class="logo logo-light">
-                            <!-- <span class="logo-sm">
-                                <img src="{{ asset('backend/assets/images/logo-sm.png') }}" alt="logo-sm-light" height="22">
-                            </span> -->
+                            <span class="logo-sm">
+                                <img src="{{ asset('backend/assets/images/logo-sm.png') }}" alt="logo-sm-light" height="40">
+                            </span>
                             <span class="logo-lg">
-                                <img src="{{ asset('backend/assets/images/logo-light.png') }}" alt="logo-light" height="50">
+                                <img src="{{ asset('backend/assets/images/logo-light.png') }}" alt="logo-light" height="45">
                             </span>
                         </a>
                     </div>
