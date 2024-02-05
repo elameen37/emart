@@ -12,7 +12,7 @@
 
                         <h4 class="card-title">Home Slide Page </h4>
 
-                        <form method="post" action="" enctype="multipart/form-data">
+                        <form method="post" action="{{ route ('update.slider') }}" enctype="multipart/form-data">
                             @csrf
 
                             <input type="hidden" name="id" value="{{ $homeslider->id }}">
