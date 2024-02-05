@@ -57,7 +57,12 @@
         <!-- Start right Content here -->
         <!-- ============================================================== -->
 
-        @yield('admin')
+        <!-- begin main content-->
+        <main class="main-content">
+
+            @yield('admin')
+
+        </main>
         <!-- end main content-->
         @include('admin.body.footer')
     </div>
@@ -115,7 +120,7 @@
                 break;
             case 'error':
                 toastr.error("{{ Session::get('message') }}");
-                break;                        
+                break;
         }
         @endif
     </script>
