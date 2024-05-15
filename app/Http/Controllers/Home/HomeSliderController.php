@@ -65,12 +65,4 @@ class HomeSliderController extends Controller {
         } // End Else
     
     } // End Method
-    
-
-
-
-
-
-
-
 }
